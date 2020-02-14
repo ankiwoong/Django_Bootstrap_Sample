@@ -1,0 +1,11 @@
+cd mysite
+source myvenv/bin/activate
+pip install django
+django-admin startproject landingpage .
+python manage.py startapp main
+python manage.py runserver
+
+1. urls.py
+2. views.py
+3. main > templates > main > index.html
+4. models.py
